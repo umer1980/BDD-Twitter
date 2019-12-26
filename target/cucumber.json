@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Testing Reqres API",
+        "description": "",
+        "id": "api-testing;testing-reqres-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9813645013,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Reqres Website",
+            "match": {
+              "location": "ReqresTesting.i_am_on_Reqres_Website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 346418472,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Get method",
+            "match": {
+              "location": "ReqresTesting.i_click_on_Get_method()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 591422621,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to see response",
+            "match": {
+              "location": "ReqresTesting.i_should_be_able_to_see_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "API Testing",
+    "description": "As a API tester\r\nI want to test Get and Post method\r\nso that I can see the desired method",
+    "id": "api-testing",
+    "keyword": "Feature",
+    "uri": "C:/Users/PC Solutions/Desktop/BDDTwitter/src/test/java/resources/reqres.feature"
+  }
+]
